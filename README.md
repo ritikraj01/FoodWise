@@ -93,4 +93,4 @@ Contributions are welcome! Follow these steps to contribute:
 
 ---
 
-**Food Wise** is developed and maintained by [Nitin Rajvanshi](https://github.com/nkraj7266). For any queries or suggestions, feel free to contact me.
+**Food Wise** is developed and maintained by [Ritik Rajvanshi](https://github.com/ritikraj01). For any queries or suggestions, feel free to contact me.
