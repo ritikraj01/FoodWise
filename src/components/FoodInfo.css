@@ -1,0 +1,121 @@
+.container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	width: 90vw;
+	max-width: 800px;
+	margin-top: 20px;
+
+	> h3 {
+		font-size: 1.3rem;
+	}
+
+	.warning {
+		padding: 5px 23px;
+		margin: 10px 0;
+		background-color: #ec972559;
+		border-radius: 5px;
+		color: #484848e0;
+	}
+}
+
+.upper-wrap {
+	display: grid;
+	grid-template-columns: 2fr 3fr;
+	gap: 20px;
+	width: 100%;
+	border-radius: 10px;
+	border: 2px solid #0000007d;
+	max-width: 800px;
+	padding: 20px;
+	margin: 10px 0;
+	box-shadow: 5px 5px 5px #0000007d;
+}
+
+.food-info {
+	background-color: #0000001d;
+	padding: 10px;
+}
+
+.food-info ul {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+}
+
+.food-info ul li {
+	list-style: none;
+	text-align: left;
+	display: flex;
+	justify-content: space-between;
+	padding: 7px 15px;
+	font-weight: 400;
+	background-color: #fff9;
+
+	.name {
+		font-weight: 600;
+	}
+
+	.data {
+		font-weight: 400;
+		color: #000000c9;
+
+		> span {
+			margin-left: 3px;
+		}
+	}
+}
+
+.exercise-info {
+	background-color: #0000001d;
+	text-align: left;
+	padding: 5px 10px;
+}
+
+.exercise {
+	margin: 15px 10px;
+	display: flex;
+	align-items: center;
+	background-color: #fff9;
+	padding: 5px;
+
+	> img {
+		width: 50px;
+		margin: 10px;
+	}
+
+	> p {
+		padding: 10px;
+		font-weight: 500;
+		font-size: 0.875rem;
+		display: inline-block;
+	}
+}
+
+.lower-wrap {
+	width: 100%;
+	border-radius: 10px;
+	border: 2px solid #0000007d;
+	max-width: 800px;
+	padding: 20px;
+	margin: 10px 0;
+	box-shadow: 5px 5px 5px #0000007d;
+
+	> canvas {
+		background-color: #00000005;
+		border-radius: 10px;
+		padding: 5px;
+	}
+}
+
+@media (max-width: 768px) {
+	.upper-wrap {
+		grid-template-columns: 1fr;
+	}
+
+	.lower-wrap {
+		display: none;
+	}
+}
