@@ -20,7 +20,7 @@ ChartJS.register(
 
 const options = {
 	indexAxis: "x",
-	responsive: true,
+	responsive: false,
 	plugins: {
 		legend: {
 			position: "top",
